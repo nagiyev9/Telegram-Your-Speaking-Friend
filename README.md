@@ -23,7 +23,7 @@ Your Speaking Friend is a Node.js-based Telegram bot designed to help users impr
 
 - Setup
    - 1. Install Dependencies
-       - Make sure you have Node.js installed. Run the following command to install the required packages:
+        - Make sure you have Node.js installed. Run the following command to install the required packages:
 
               npm install
 
