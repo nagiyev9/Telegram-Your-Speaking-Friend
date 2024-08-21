@@ -505,7 +505,7 @@ const checkAutoBan = async () => {
     }
 };
 
-// Set interval to run checkAutoBan every hour
+// Set interval to run checkAutoBan an every hour
 setInterval(checkAutoBan, 1 * 60 * 60 * 1000);
 
 
