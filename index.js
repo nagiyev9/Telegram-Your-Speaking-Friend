@@ -19,7 +19,7 @@ let userPairs = {};
 const validCommands = ['/start', '/end', '/test', '/myid', '/help', '/chat', '/register', '/ban', '/unban', '/refreshtime'];
 
 const isAdmin = (chatId) => {
-    const adminChatIds = [1693062819];
+    const adminChatIds = [process.env.ADMIN];
     return adminChatIds.includes(chatId);
 };
 
